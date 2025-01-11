@@ -4,7 +4,16 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  /* font-style */
+  .common-font-style-1{
+    color: #0E0E0E;
+    opacity: 80%;
+  }
 
+  .common-font-style-2{
+    color: #0E0E0E;
+    opacity: 70%;
+  }
 
 
 *{
@@ -69,7 +78,8 @@ ul li a{
     margin: 162px 60px;
   }
   .banner-title{
-   color:#0e0e0e7a;
+   color:#0E0E0E;
+   opacity: 50%;
    font-size: 24px;
   }
   .banner-content{
@@ -94,7 +104,6 @@ ul li a{
   .hero-img{
     width: 475px;
     height: 400px;
-
     margin: 80px 60px;
   }
 
@@ -111,9 +120,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     gap: 32px 24px;
-    
-    
-}
+    }
 
 .card{
     width: 302px; 
@@ -144,7 +151,6 @@ ul li a{
     margin-top: 24px;
   }
   .card-description{
-    color: #0e0e0e9c;
     font-size: 16px;
     line-height: 24px;
     margin-top: 12px;
@@ -163,7 +169,6 @@ ul li a{
 }
 .vision-description{
   font-size: 16px;
-  color: #0e0e0eb3;
   margin-top: 24px;
 }
 .vision-card-box{
@@ -231,7 +236,11 @@ ul li a{
     margin: 12px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #0e0e0eb0;
+  }
+  .vision-card-description{
+    font-size: 16px;
+    line-height: 24px;
+
   }
   .v-btn1{
     margin: 40px 0;
@@ -280,31 +289,26 @@ ul li a{
     background-color: rgb(225, 120, 16);
   }
 
-.advisor-section{
-  background-color: #ffffff;
-  height: 256px;
-  margin-top: 32px;
-  border-radius: 8px;
-
-}
-
 /* vision-section style ends here */
 
 
 /* hero section style starts here */
+.advisor-section{
+    background-color: #ffffff;
+    height: 256px;
+    margin-top: 32px;
+    border-radius: 8px;
+  
+  }
 .container-div{
 padding:48px 24px ;
- 
-}
-.quote-container{
-    
-}
+ }
+
 .introduce-section{
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   margin:20px 25pxpx ;
   font-size: 16px;
-  color: #0e0e0eb6;
   line-height: 24px;
   margin-bottom: 12px;
 }
@@ -312,12 +316,12 @@ padding:48px 24px ;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 4px;
-  color: #0E0E0E;
 }
 .designation{
   font-size: 16px;
   line-height: 24px;
-  color: #0e0e0e72;
+  color: #0E0E0E;
+  opacity: 60%;
 }
 
 /* hero section style ends here */
@@ -333,12 +337,11 @@ padding:48px 24px ;
   margin-bottom: 24px;
   color: #0E0E0E;
 }
-.news-descriptions{
+.recent-news-description{
   font-size: 16px;
-  color: #0e0e0ea8;
   margin-bottom: 32px;
 }
-.news{
+.recent-news{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,12 +362,12 @@ padding:48px 24px ;
 }
 .publication {
   margin-bottom: 12px;
-  color: #0e0e0eb8;
 }
-.news-des{
+.news-details{
   font-size: 16px;
   line-height: 24px;
-  color: #0e0e0eb8;
+  color: #0E0E0E;
+  opacity: 70%;
 }
 .news-image img{
   width: 408px;
@@ -404,7 +407,6 @@ padding:48px 24px ;
   .denote-description{
     font-size: 16px;
     line-height: 24px;
-    color: #0e0e0e9f;
   }
 
   .denote-card{
@@ -438,8 +440,7 @@ padding:48px 24px ;
     background-color: #C6E4D6;
     padding: 40px;
     transition:ease-in-out 0.5s;
-
-  }
+}
   .amount-card-2:hover{
     background-color: #0e5535;
     color: #ffffff;
@@ -448,6 +449,7 @@ padding:48px 24px ;
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
+    opacity: 80%;
   }
   .amount-card-3{
     width: 243px;
@@ -496,7 +498,8 @@ padding:48px 24px ;
     outline: none;
   }
   ::placeholder{
-    color: #0e0e0e4b;
+    color: #0E0E0E;
+    opacity: 30%;
     font-size: 20px;
   }
   .denote-button{
@@ -525,11 +528,10 @@ padding:48px 24px ;
 .newsContainer{
     width: 750px;
     height: 235px;
- 
     margin: 0 auto;
 }
-.footer-news-title{
-    color: 0E0E0E;
+.subcribe-news-title{
+    color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 16px;
@@ -541,7 +543,8 @@ padding:48px 24px ;
     margin: 16px auto;
 }
 .news-subtitle{
-   color: #0e0e0e98;
+   color: #0E0E0E;
+   opacity: 70%;
     font-size: 16px;
     line-height: 24px;
 }
@@ -559,36 +562,34 @@ padding:48px 24px ;
     outline: 0;
     padding: 18px 34px;
 }
-
-
 .sub-btn{
-   
   border: 0;
   background-color: #006A50;
   color: #ffffff;
   padding: 17px 34px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
-   
-  
 }
 .sub-btn:hover{
   background-color: #f0910c;
 }
-.promise{
+.promise-box{
  margin: 24px 64px;
+ color: #0E0E0E;
+ opacity: 70px;
 }
 ::placeholder{
   font-size: 16px;
-  color: #0e0e0e3f;
+  color: #0E0E0E;
+  opacity: 30px;
 }
 /* news letter section style ends here */
 
 /* footer-section starts here */
    .footer-sections{
     text-align: center;
-    margin-top: 50px ;
-    margin-bottom: 138px ;
+    margin: 50px 0;
+
    }
    .footer-title{
     font-size: 32px;
@@ -602,6 +603,10 @@ padding:48px 24px ;
     justify-content: center;
     align-items: center;
     gap: 23px;
+   }
+   .footer-icon img{
+    width: 24px;
+    height: 24px;
    }
 /* footer-section starts here */
 
