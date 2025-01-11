@@ -280,10 +280,11 @@ ul li a{
     background-color: rgb(225, 120, 16);
   }
 
-.yunus{
+.advisor-section{
   background-color: #ffffff;
   height: 256px;
   margin-top: 32px;
+  border-radius: 8px;
 
 }
 
@@ -291,12 +292,14 @@ ul li a{
 
 
 /* hero section style starts here */
-.yunus-content{
-
-  padding:48px 24px ;
+.container-div{
+padding:48px 24px ;
  
 }
-.y-description{
+.quote-container{
+    
+}
+.introduce-section{
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   margin:20px 25pxpx ;
@@ -305,7 +308,7 @@ ul li a{
   line-height: 24px;
   margin-bottom: 12px;
 }
-.y-title{
+.name-of advisor{
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -545,16 +548,16 @@ ul li a{
 .form{
     width: 750px;
     height: 6px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 24px 0;
 }
 .form input{
     width: 600px;
     border: none;
     outline: 0;
-    padding: 17px 34px;
+    padding: 18px 34px;
 }
 
 
@@ -564,7 +567,7 @@ ul li a{
   background-color: #006A50;
   color: #ffffff;
   padding: 17px 34px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
    
   
