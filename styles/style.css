@@ -1,4 +1,4 @@
-
+/* font style here */
 .work-sans-normal {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -19,6 +19,7 @@ body{
     background-color: #F5F5F5;
 }
 
+/* nav section style stars here */
 ul{
     display: flex;
     justify-content: space-between;
@@ -49,6 +50,7 @@ ul li a{
     background-color: #006A50;
     color: #ffffff;
 }
+/* nav section style ends here */
 
 /* banner-section-style starts here */
   .banner{
@@ -98,9 +100,9 @@ ul li a{
 
 /* banner-section-style ends here */
 
-/* pillars section stars here */
+/* pillars section style stars here */
 .pillar-section{
-    height: 600px;
+    height: 300px;
     margin-top: 80px;
 }
 .card-container{
@@ -121,6 +123,10 @@ ul li a{
     border-radius: 16px;
     background-color: #ffffff;
     
+}
+
+.card:hover{
+   background-color: #95cbb3;
 }
   .pillar-title{
     font-size: 40px;
@@ -143,9 +149,9 @@ ul li a{
     line-height: 24px;
     margin-top: 12px;
   }
-/* pillars section ends here*/
+/* pillars section style ends here*/
 
-/* vision-section starts here */
+/* vision-section style starts here */
 .vision-section{
     height: 765px;
     margin-top: 80px;
@@ -174,6 +180,8 @@ ul li a{
     border-radius: 16px;
     background-color: #548ff551;
     padding: 32px;
+    transition:ease-in 0.3s;
+
   }
 
   .vision-card-2{
@@ -184,6 +192,8 @@ ul li a{
     border-radius: 16px;
     background-color: #C6E4D6;
     padding: 32px;
+    transition:ease-in 0.3s;
+
   }
 
   .vision-card-3{
@@ -194,7 +204,24 @@ ul li a{
     border-radius: 16px;
     background-color: #F7EBCF;
     padding: 32px;
+    transition:ease-in 0.3s;
   }
+
+  .vision-card-1:hover{
+    background-color: #0c8e53;
+    color: white;
+  }
+
+  .vision-card-2:hover{
+    background-color: #2f8e0c;
+    color: white;
+  }
+
+  .vision-card-3:hover{
+    background-color: #0c8e35;
+    color: white;
+  }
+
 
   .card-icon img{
     width:64px ;
@@ -215,6 +242,8 @@ ul li a{
     font-size: 16px;
     font-weight: 600px;
     border: none;
+    transition: ease-in-out 0.3s;
+
   }
 
   .v-btn2{
@@ -226,6 +255,8 @@ ul li a{
     font-size: 16px;
     font-weight: 600px;
     border: none;
+    transition: ease-in-out 0.3s;
+
   }
 
   .v-btn3{
@@ -237,6 +268,7 @@ ul li a{
     font-size: 16px;
     font-weight: 600px;
     border: none;
+    transition: ease-in-out 0.3s;
   }
   .v-btn1:hover{
     background-color: rgb(16, 225, 131);
@@ -254,6 +286,11 @@ ul li a{
   margin-top: 32px;
 
 }
+
+/* vision-section style ends here */
+
+
+/* hero section style starts here */
 .yunus-content{
 
   padding:48px 24px ;
@@ -280,7 +317,10 @@ ul li a{
   color: #0e0e0e72;
 }
 
+/* hero section style ends here */
   
+
+/* news section style starts here */
 .news-section{
   height: 1410px;
 }
@@ -331,10 +371,22 @@ ul li a{
 .news-content{
   width: 744px;
   height: 290px;
-
-  
-
 }
+.common-btn{
+    border: 0;
+    background-color: #006A50;
+    color: #ffffff;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 32px;
+    transition:all 0.5s;
+  }
+  .common-btn:hover{
+    background-color: #0cf089;
+  }
+/* news section style starts here */
 
 /* denote section style start */
   .denote{
@@ -358,7 +410,7 @@ ul li a{
     align-items: center;
     margin: 32px 104.5px;
   }
-  .amount-1{
+  .amount-card-1{
     width: 240px;
     height: 128px;
     display: flex;
@@ -367,25 +419,34 @@ ul li a{
     border-radius: 16px;
     background-color: #ffffff;
     padding: 40px;
+    transition: ease-in-out 0.5s;
   }
-  .amount-2{
+  .amount-card-1:hover{
+    background-color: #0e5535;
+    color: #ffffff;
+  }
+  .amount-card-2{
     width: 252px;
     height: 128px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
     background-color: #C6E4D6;
     padding: 40px;
+    transition:ease-in-out 0.5s;
 
   }
-  .denote-amount{
+  .amount-card-2:hover{
+    background-color: #0e5535;
+    color: #ffffff;
+  }
+  .common-denote-amount{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
   }
-  .amount-3{
+  .amount-card-3{
     width: 243px;
     height: 128px;
     display: flex;
@@ -394,8 +455,13 @@ ul li a{
     border-radius: 16px;
     background-color: #ffffff;
     padding: 40px;
+    transition: ease-in-out 0.5s;
   }
-  .amount-4{
+  .amount-card-3:hover{
+    background-color: #0e5535;
+    color: #ffffff;
+  }
+  .amount-card-4{
     width: 264px;
     height: 128px;
     display: flex;
@@ -404,9 +470,14 @@ ul li a{
     border-radius: 16px;
     background-color: #ffffff;
     padding: 40px;
+    transition: ease-in-out 0.5s;
+  }
+  .amount-card-4:hover{
+    background-color: #0e5535;
+    color: #ffffff;
   }
 
-  .denote-field{
+  .denote-input-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -425,7 +496,7 @@ ul li a{
     color: #0e0e0e4b;
     font-size: 20px;
   }
-  .d-btn{
+  .denote-button{
     border-radius: 8px;
     background-color: #006A50;
     padding: 17px 34px;
@@ -436,8 +507,7 @@ ul li a{
 /* denote section style end */
 
 
-/* vision-section ends here */
-
+/* news letter section style start here */
 
 .newsLetter{
     margin-bottom: 80px;
@@ -467,13 +537,12 @@ ul li a{
     text-align: center;
     margin: 16px auto;
 }
-.news-description{
+.news-subtitle{
    color: #0e0e0e98;
     font-size: 16px;
     line-height: 24px;
 }
 .form{
-    
     width: 750px;
     height: 6px;
     
@@ -488,19 +557,7 @@ ul li a{
     padding: 17px 34px;
 }
 
-.common-btn{
-  border: 0;
-  background-color: #006A50;
-  color: #ffffff;
-  padding: 13px 26px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 8px;
-  margin-top: 32px;
-}
-.common-btn:hover{
-  background-color: #0cf089;
-}
+
 .sub-btn{
    
   border: 0;
@@ -522,6 +579,29 @@ ul li a{
   font-size: 16px;
   color: #0e0e0e3f;
 }
+/* news letter section style ends here */
+
+/* footer-section starts here */
+   .footer-sections{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 138px ;
+   }
+   .footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+   }
+   .footer-icon{
+    margin-top: 32px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+   }
+/* footer-section starts here */
+
   
   
     
